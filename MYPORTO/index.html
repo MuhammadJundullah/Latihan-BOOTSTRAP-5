@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Sayid - HOMEPAGE</title>
 </head>
-<body>
+<body class="bg-dark">
 <!-- nav section start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">TOURGUIDE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,9 +44,9 @@
       </nav>
 <!-- nav section end -->
 <!-- firs layout start -->
-  <div class="container-fluid bg-dark text-light" style="height:200vh">
+  <div class="container-fluid text-light" style="height: 100vh">
 <!-- carousel image -->
-<div id="carouselExampleDark" class="carousel carousel-dark slide">
+<div id="carouselExampleDark" class="carousel carousel-light slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -54,21 +54,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <img src="/assets/carousel image 1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <img src="/assets/carousel image 1.jpg" class="d-block w-100" alt="..." style="height: 400px;">
       <div class="carousel-caption">
         <h5 class="text-light">Wandering in the woods</h5>
         <p class="text-light">Let's challenge yourself by boldly winding the forest.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/carousel image 2.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <img src="/assets/carousel image 2.jpg" class="d-block w-100" alt="..." style="height: 400px;">
       <div class="carousel-caption">
         <h5 class="text-light">Mountain climbing</h5>
         <p class="text-light">Conquer the Skyscraper Mountains Right Now.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/assets/carousel image 3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+      <img src="/assets/carousel image 3.jpg" class="d-block w-100" alt="..." style="height: 400px;">
       <div class="carousel-caption">
         <h5 class="text-light">Wading through the desert</h5>
         <p class="text-light">Wade through the desert tirelessly like a camel.</p>
@@ -93,37 +93,46 @@
         <i>Berpengalaman lebih dari <span style="color: coral;">300+</span> tempat wisata di indonesia</i>
       </div>
     </div>
-    <div class="row text-dark">
-      <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="row text-dark mt-4 ">
+      <div class="col-sm-4 g-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Tour Bersama Saya</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, architecto?</p>
+            <a href="#" class="btn btn-dark d-block">Hubungi Sekarang</a>
           </div>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">$12
+            <span class="visually-hidden">unread messages
+            </span>
+          </span>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-4 g-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Paket Tour Terbaik</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, molestias.</p>
+            <a href="#" class="btn btn-dark d-block">Biaya Paket</a>
           </div>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">$18
+            <span class="visually-hidden">unread messages
+            </span>
+          </span>
         </div>
       </div>
-      <div class="col-sm-6 mt-3">
+      <div class="col-sm-4 g-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Spesial Kupon</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, assumenda?</p>
+            <a href="#" class="btn btn-dark d-block">Lihat Lebih Lengkap</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 <!-- firs layout end -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
